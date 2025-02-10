@@ -1,0 +1,24 @@
+# Ignora l'ambiente virtuale (se hai creato una cartella 'venv')
+venv/
+
+# Ignora i file di modelli allenati
+*.h5
+
+# Ignora i file temporanei e di log
+*.log
+
+# Ignora le cartelle di output di TensorFlow
+checkpoint/
+
+# Ignora file di sistema generati da macOS e Windows
+.DS_Store
+Thumbs.db
+
+# Ignora i file di configurazione locali di editor di testo (ad esempio VSCode)
+.vscode/
+
+# Ignora i file di configurazione locali di Jupyter
+.ipynb_checkpoints/
+
+# Ignora file di configurazione di Kaggle (se presenti)
+.kaggle/
